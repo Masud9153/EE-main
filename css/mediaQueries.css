@@ -18,7 +18,7 @@
   .ultimate-section-content {
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
   }
 
 /* fourth section */
@@ -37,7 +37,7 @@
     object-fit: cover;
     position: absolute;
     /* right: -100%; */
-    /* transform: translateX(100%); */
+    transform: translateX(150%);
     max-width: 480px;
     min-height: 500px;
     /* transition: right 0.6s ease; */
@@ -248,7 +248,7 @@
   }
   .lb-heading + div,
   .rb-heading + div {
-    font-size: 8px;
+    font-size: 9px;
   }
   .lb-cnt > .row,
   .rb-cnt > .row {
@@ -257,6 +257,10 @@
   .lb-cnt > .row > div.col-50 > div:first-child,
   .rb-cnt > .row > div.col-50 > div:first-child {
     font-size: 14px;
+  }
+
+  .search-container {
+    width: 94%;
   }
 
   /* About Section */
@@ -268,7 +272,11 @@
   }
   .about-img {
     max-width: 324px;
-    margin: 0 auto;
+    margin: 25px auto;
+  }
+
+  .txt-over-img>p{
+    font-size: 30px;
   }
 }
 
@@ -321,7 +329,18 @@
 }
 
 @media screen and (max-width: 426px) {
- /* Section Filler */
+ 
+  /* banner section   */
+ 
+  .bnr-section {
+   min-height: 750px;
+  }
+ 
+ .search-container {
+        width: 89%;
+    }
+ 
+  /* Section Filler */
   .ami-card {
     min-height: 500px;
     display: flex;
@@ -343,6 +362,12 @@
  
   margin-top: 30px;
  }
+
+
+ .card {
+        height: 400px !important;
+        width: 320px !important;
+    }
 
 /* fourth section */
  .section4-right > img {
@@ -462,6 +487,9 @@
   .upr-left-text > p {
     font-size: 30px;
   }
+  .bnr-section {
+        min-height: 680px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -473,7 +501,7 @@
 
 }
 
-@media screen and ( max-width : 374px ) {
+@media screen and ( max-width : 350px ) {
   
   /* footer section  */
   
@@ -482,4 +510,10 @@
    height:30px ;
   
  }
+ .bnr-section {
+        min-height: 630px;
+    }
+    .head-para{
+      font-size: 10px;
+    }
 }

@@ -17,6 +17,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body id="luxy">
     <!-- Header Section -->
@@ -72,11 +74,11 @@
         <div class="row">
           <div class="col-50">
             <div>100+</div>
-            <p>Frame Styles to Suit Every Personality</p>
+            <p class="head-para">Frame Styles to Suit Every Personality</p>
           </div>
           <div class="col-50">
             <div>5 Million</div>
-            <p>Over 5 Million Satisfied Customers</p>
+            <p class="head-para">Over 5 Million Satisfied Customers</p>
           </div>
         </div>
       </div>
@@ -94,11 +96,11 @@
         <div class="row">
           <div class="col-50">
             <div>100+</div>
-            <p>Frame Styles to Suit Every Personality</p>
+            <p class="head-para">Frame Styles to Suit Every Personality</p>
           </div>
           <div class="col-50">
             <div>5 Million</div>
-            <p>Over 5 Million Satisfied Customers</p>
+            <p class="head-para">Over 5 Million Satisfied Customers</p>
           </div>
         </div>
       </div>
@@ -124,7 +126,7 @@
                 </div>
                 <div class="col-9">
                   <div class="categories">
-                    <a href="#" class="category-btn eyeglass">
+                    <a href="#url" class="category-btn eyeglass">
                       <span>Eyeglass</span>
                       <div class="button__icon-wrapper2">
                         <div class="arrow">
@@ -136,7 +138,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="#" class="category-btn sunglass">
+                    <a href="#url" class="category-btn sunglass">
                       <span>Sunglass</span>
                       <div class="button__icon-wrapper2">
                         <div class="arrow">
@@ -148,7 +150,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="#" class="category-btn screen-glasses">
+                    <a href="#url" class="category-btn screen-glasses">
                       <span>Screen Glasses</span>
                       <div class="button__icon-wrapper2">
                         <div class="arrow">
@@ -160,7 +162,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="#" class="category-btn contact-lenses">
+                    <a href="#url" class="category-btn contact-lenses">
                       <span>Contact Lenses</span>
                       <div class="button__icon-wrapper2">
                         <div class="arrow">
@@ -189,7 +191,9 @@
     >
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <!-- About Card  -->
             <div class="about-img">
               <img
@@ -224,7 +228,7 @@
               <div class="br"></div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-6"  data-aos="zoom-out-down">
             <!-- About Content -->
             <h3 class="title3 about-heading">
               <span> About Us </span>
@@ -264,7 +268,7 @@
           <div class="col-12">
             <div class="ultimate-section-content">
               <div class="col-3">
-                <div class="banner3-content">
+                <div class="banner3-content" data-aos="zoom-out-down">
                   <h3>Ultimate</h3>
                   <h2>Collection</h2>
 
@@ -283,7 +287,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-9">
+              <div class="col-9" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div id="secondslider" class="swiper">
                   <!-- Additional required wrapper -->
                   <div class="swiper-wrapper">
@@ -482,7 +488,7 @@
           <div class="row">
             <div class="col-12">
               <div class="banner4-wrapper">
-                <div class="col-9">
+                <div class="col-9"  data-aos="zoom-out-down">
                   <div class="section4-left">
                     <div class="section4-upr-left">
                       <div class="Frame-15">
@@ -538,7 +544,7 @@
         <div class="col-12">
           <div class="section5-content">
             <div class="col-3">
-              <div class="section5-logo">
+              <div class="section5-logo" data-aos="zoom-out-down">
                 <!-- <img src="./assest/Frame 13 (1).png" alt="no" /> -->
                 <h3>Shop By</h3>
                 <div class="section5-logo2">
@@ -553,7 +559,9 @@
             </div>
           </div>
         </div>
-        <div class="clip-content">
+        <div class="clip-content" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <div class="clip-btn1">
             <a href="#url">MEN</a>
           </div>
@@ -565,7 +573,9 @@
           </div>
         </div>
 
-        <div id="firstslider" class="swiper">
+        <div id="firstslider" class="swiper" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
@@ -666,37 +676,42 @@
             <div class="footer-content">
               <div class="col-35">
                 <div class="footer-content1">
-                  <div class="footer-logo">
+                  <div class="footer-logo" data-aos="zoom-out-down">
                     <img src="./assets/img/Vector (8).png" alt="no" />
                   </div>
-                  <p>
+                  <p data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     Explore a world of exceptional eyewear crafted to <br />
                     elevate your style and vision. From timeless classics <br />
                     to modern trends, we’re here to bring clarity and <br />
                     confidence to every moment.
                   </p>
 
-                  <div class="footer-online">
+                  <div class="footer-online"
+                  data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                     <div class="footer-Btn">
-                      <a href="#" class="svgContainer">
+                      <a href="#url" class="svgContainer">
                         <img src="./assets/img/Frame 28.png" alt="no" />
                       </a>
                       <span class="BG1"></span>
                     </div>
                     <div class="footer-Btn">
-                      <a href="#" class="svgContainer">
+                      <a href="#url" class="svgContainer">
                         <img src="./assets/img/Frame 29.png" alt="no" />
                       </a>
                       <span class="BG2"></span>
                     </div>
                     <div class="footer-Btn">
-                      <a href="#" class="svgContainer">
+                      <a href="#url" class="svgContainer">
                         <img src="./assets/img/Frame 30.png" alt="no" />
                       </a>
                       <span class="BG3"></span>
                     </div>
                     <div class="footer-Btn">
-                      <a href="#" class="svgContainer">
+                      <a href="#url" class="svgContainer">
                         <img src="./assets/img/Frame 31.png" alt="no" />
                       </a>
                       <span class="BG4"></span>
@@ -705,7 +720,9 @@
                 </div>
               </div>
               <div class="col-15">
-                <div class="footer1-links">
+                <div class="footer1-links" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                   <span>Quicklinks</span>
                   <ul class="footer-links">
                     <li class="footer-Quicklinks">
@@ -772,7 +789,9 @@
                 </div>
               </div>
               <div class="col-15">
-                <div class="footer2-links">
+                <div class="footer2-links" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                   <span>Support</span>
                   <ul class="footer-links">
                     <li class="footer-Quicklinks">
@@ -827,11 +846,13 @@
                 </div>
               </div>
               <div class="col-25">
-                <div class="footer-content4">
-                  <h4>
+                <div class="footer-content4"  data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                  <h3>
                     Subscribe to our <br />
                     Newsletters
-                  </h4>
+                  </h3>
 
                   <div class="search-box">
                     <img src="./assets/img/Frame 42.png" alt="no" />
@@ -864,5 +885,10 @@
 
     <!-- Custom JS -->
     <script src="./js/script.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

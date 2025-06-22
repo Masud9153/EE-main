@@ -126,8 +126,8 @@ h4,
 
 p {
   font-family: objectivity-thin, serif;
-  font-size: 1vw;
-  margin-bottom: 3vw;
+  /* font-size: 1vw; */
+  /* margin-bottom: 3vw; */
 }
 
 /* Header Section */
@@ -198,7 +198,7 @@ nav {
   border-radius: 75px;
   padding: 0 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  width: 96%;
+  width: 98%;
   max-width: 1670px;
   min-height: 138px;
   transition: all 0.3s ease;
@@ -243,9 +243,9 @@ nav {
 .category-btn {
   display: flex;
   align-items: center;
-  /* gap: 20px; */
+  gap: 20px;
   max-width: 269px;
-  width: 100%;
+  /* width: 100%; */
   min-height: 69px;
   border: 1px solid #d4d4d4;
   border-radius: 45px;
@@ -344,7 +344,8 @@ nav {
 /* Banner Section */
 
 .bnr-section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: 962px;
   background: url("../assets/img/BG.png") center/cover no-repeat;
   border-radius: 0 0 100px 100px;
   padding: 87px 0 0;
@@ -682,9 +683,9 @@ About Section
 
 
 /* Section Filler */
-.section2 {
+/* .section2 {
   min-height: 100vh;
-}
+} */
 
 .banner3 > div > div {
   display: flex;
@@ -1103,6 +1104,7 @@ About Section
 .lwr-left1 > p {
   font-size: 21px;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 0px;
 }
 .lwr-left2 {
   display: flex;
@@ -1115,6 +1117,7 @@ About Section
 .lwr-left2 > p {
   font-size: 21px;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 0px;
 }
 .lwr-left3 {
   display: flex;
@@ -1127,6 +1130,7 @@ About Section
 .lwr-left3 > p {
   font-size: 21px;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 0px;
 }
 .section4-right {
   /* max-width:480px ; */
@@ -1630,9 +1634,10 @@ About Section
     flex-direction: column;
     gap: 5px;
 }
-.footer-content4>h4{
+.footer-content4>h3{
     font-size:30px ;
     color: #FFFFFF;
+    font-weight: 700;
 }
 .footer-Quicklinks{
     display: flex;
